@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnitCycleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-01-09T10:15:25" hostname="JANGJAGUAR" time="0.009">
+  <properties/>
+  <testcase name="test1()" classname="JUnitCycleTest" time="0.007"/>
+  <testcase name="test2()" classname="JUnitCycleTest" time="0.001"/>
+  <testcase name="test3()" classname="JUnitCycleTest" time="0.0"/>
+  <system-out><![CDATA[@BeforeAll
+@BeforeEach
+test1
+@AfterEach
+@BeforeEach
+test2
+@AfterEach
+@BeforeEach
+test3
+@AfterEach
+@AfterAll
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
